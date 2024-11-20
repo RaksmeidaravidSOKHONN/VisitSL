@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>VISITSL</title>
+    <title>Passport to Paradise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" class="re">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body onload=display_ct();>
 <script src="jquery-3.5.1.js"></script>
 <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 <script src="js/home.js"></script>
 <header class="header">
-
-
+    <div class="logo">
+        <img src="logo.png" alt="Passport to Paradise Logo">
+    </div>
     <nav class="navbar navbar-expand-md bg-dark ">
-
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,15 +27,13 @@
                     <a class="nav-link" href="home.html">Home</a>
                 </li>
                 <li class="nav-item" id="About">
-                    <a class="nav-link" href="srilanka.html">Sri Lanka</a>
+                    <a class="nav-link" href="destination.html">Destination</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="stay.html">Stay</a>
+                    <a class="nav-link " href="booking.html">Booking Hotel</a>
 
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ttd.html">Things to do</a>
-                </li>
+                
                 <li class="nav-item" id="Cu">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
@@ -45,8 +45,8 @@
 <div class="hero">
     <div class="overlay"></div>
     <div class="description">
-        <h1>WELCOME TO SRI LANKA</h1>
-        <p>A Land Like No Another</p>
+        <h1>WELCOME TO CAMBODIA</h1>
+        <h2>The King of Wonder</h2>
     </div>
 </div>
 
@@ -56,45 +56,18 @@
     <p id="ct"></p>
 
 </div>
-
-<div class="row">
-    <div class="column">
-        <a href="#" id="crd">
-            <div class="card">
-                <h3 class="feature-title">Sri Lanka Tourism Operational Guidlines With Health Protocols</h3>
-                <img src="images/covid.jpg" class="img-fluid" alt="covid">
-                <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions.
-                    Follow advice provided by local health authority.</p>
-            </div>
-        </a>
-    </div>
-    <div class="column">
-        <a href="feedbacks.html" id="crd">
-            <div class="card">
-                <h3 class="feature-title">What world has to say</h3>
-                <img src="images/foreigners.jpg" class="img-fluid" alt="foreigners">
-                <p>Sneak peak at Feedbacks</p>
-            </div>
-        </a>
-    </div>
-    <div class="column">
-        <a href="#" id="crd">
-            <div class="card">
-                <h3 class="feature-title">Tourism News</h3>
-                <img src="images/news.jpg" class="img-fluid" alt="news">
-                <p>Stay Updated</p>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="footer">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-youtube"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <p id="copyright">&#169; Tourist board ALL RIGHTS RESERVED</P>
-</div>
-
-
 </body>
+<footer>
+    <div class="footer-content">
+      <div class="footer-logo">ExploreAway - Your Ultimate Tourist Companion</div>
+  
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <button onclick="scrollToTop()" class="topfun"><i class="fa-solid fa-arrow-up"></i></button>
+    </div>
+    <p style="margin-top: 24px;">&copy; 2023 ExploreAway - Your Ultimate Tourist Companion. All rights reserved.</p>
+</footer>
 </html>
